@@ -24,6 +24,7 @@ Input the following commands.
         $ catkin_make
         $ cd ~/catkin_ws/src/robosys_ros/myled
         $ chmod +x setup.sh
+        $ ./setup.sh
         
 ## Usage
 Input the following commands.
