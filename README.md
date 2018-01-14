@@ -1,5 +1,6 @@
 # robosys_ros
 Challenges of robot system studies 2.
+
 We created a node that operates two LEDs with the keyboard.
 
 ## movie
@@ -45,6 +46,8 @@ With the input of the following keyboard, the LED can be turned on and off.
         s: Lights the left and right LEDs.
         d: The LED on the left turns off and the LED on the right turns on.
         q: Lights the left and right LEDs.
+        
+END: Ctr+c + Enter 
         
 ## Removal
 Input the following commands.
