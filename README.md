@@ -14,8 +14,13 @@ This package requires the following to run:
     Kinetic Kame
 * led x 2
 * resistor x 2
-  * 1kΩ
-  
+  * 1kΩ
+
+## Picture
+
+![wiring](https://github.com/iidayuki/robosys_ros/blob/master/IMG_9862.jpg)
+
+
 ## Installation
 Input the following commands.
 
