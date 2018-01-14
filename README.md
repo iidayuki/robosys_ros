@@ -1,5 +1,5 @@
 # robosys_ros
-Challenges of robot system studies 2.
+Challenges of robot system studies.
 
 We created a node that operates two LEDs with the keyboard.
 
