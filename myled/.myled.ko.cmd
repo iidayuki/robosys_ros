@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/catkin_ws/src/robosys_ros/myled/myled.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/ubuntu/catkin_ws/src/robosys_ros/myled/myled.ko /home/ubuntu/catkin_ws/src/robosys_ros/myled/myled.o /home/ubuntu/catkin_ws/src/robosys_ros/myled/myled.mod.o

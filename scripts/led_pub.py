@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
 	try:
 		while not rospy.is_shutdown():
-			direction = raw_input('a: left, s: duble, d: right, q: end > ')
+			direction = raw_input('a: Left, s: Duble, d: Right, q: None > ')
 			if 'a' in direction:
 				pub1.publish(True)
 				pub2.publish(False)
@@ -27,7 +27,9 @@ if __name__ == "__main__":
 			if 'q' in direction:
 				pub1.publish(False)
 		                pub2.publish(False)
-				break
+			
 				rate.sleep()
 	except rospy.KeybordInterrupt:
+		pub1.publish(False)
+                pub2.publish(False)
 		pass
