@@ -1,5 +1,6 @@
 # robosys_ros
-ロボットシステム学の課題2
+Challenges of robot system studies 2.
+We created a node that operates two LEDs with the keyboard.
 
 ## movie
 
